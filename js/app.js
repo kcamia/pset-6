@@ -1,13 +1,24 @@
 window.onload = function() {
-  document.getElementById("add").onclick = addItem;
+  document.getElementById("add").onclick = clickAdd;
 }
 
-let elements = [];
+let listItems = [];
 
-const addItem = function() {
-  let newItem = document.getElementById("item").value;
-  elements.push(newItem);
+
+const createNewItem = function() {
+  var newItem = {
+    name: (item),
+    priority: 1,
+    completed: false,
+    removed: false
+  };
+  listItems.push(newItem);
+}
+
+const clickAdd = function() {
+  let item = document.getElementById("item").value;
+  createNewItem(item);
   let listItem = document.createElement("LI");
-  listItem.innerHTML = newItem;
+  listItem.innerHTML = item;
   document.body.appendChild(listItem);
 }
