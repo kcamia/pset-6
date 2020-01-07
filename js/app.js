@@ -67,6 +67,7 @@ const itemImportant = function() {
     }
 };
 
+
 const completedItem = function() {
     completionChanged = false;
 
@@ -88,6 +89,7 @@ const completedItem = function() {
     }
 };
 
+
 const goneItem = function() {
     itemRemoved = false;
 
@@ -104,6 +106,7 @@ const goneItem = function() {
         }
     }
 };
+
 
 const createItem = function() {
     let input = document.getElementById("input").value;
