@@ -99,7 +99,7 @@ const goneItem = function() {
             break;
         }
     }
-}
+};
 
 const createItem = function() {
     let input = document.getElementById("input").value;
