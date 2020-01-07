@@ -18,7 +18,6 @@ table {
   margin: auto;
 }
 
-
 #input {
   height: 50px;
   width: 500px;
@@ -52,7 +51,6 @@ table {
   font-size: 35px;
   font-family: fantasy;
 }
-
 
 .check {
     display: inline-block;
