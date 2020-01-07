@@ -24,6 +24,7 @@ document.addEventListener("keyup", function(pressEnter) {
   }
 });
 
+
 const functionMod = function() {
     itemImportant();
     completedItem();
