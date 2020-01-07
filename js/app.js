@@ -10,11 +10,13 @@ let priorityChanged;
 let completionChanged;
 let itemRemoved;
 
+
 window.onload = function() {
     document.getElementById("task-table").onclick = functionMod;
 
     document.getElementById("add-input").onclick = createItem;
 };
+
 
 document.addEventListener("keyup", function(pressEnter) {
   if (pressEnter.keyCode === 13) {
