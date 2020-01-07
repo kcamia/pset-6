@@ -29,7 +29,8 @@ const functionMod = function() {
     itemImportant();
     completedItem();
     goneItem();
-}
+};
+
 
 const itemImportant = function() {
     priorityChanged = false;
